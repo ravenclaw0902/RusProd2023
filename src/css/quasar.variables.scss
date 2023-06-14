@@ -1,0 +1,73 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$el-red-100: rgba(207, 0, 0, 1);
+$el-red-75: rgba(207, 0, 0, 0.75);
+$el-red-50: rgba(207, 0, 0, 0.5);
+$el-red-25: rgba(207, 0, 0, 0.25);
+$el-red-10: rgba(207, 0, 0, 0.1);
+$el-red-0: rgba(207, 0, 0, 0);
+$el-ruby-100: rgba(125, 0, 0, 1);
+$el-ruby-75: rgba(125, 0, 0, 0.75);
+$el-ruby-50: rgba(125, 0, 0, 0.5);
+$el-ruby-25: rgba(125, 0, 0, 0.25);
+$el-ruby-10: rgba(125, 0, 0, 0.1);
+$el-ruby-0: rgba(125, 0, 0, 0);
+$el-yellow-100: rgba(255, 255, 0, 1);
+$el-yellow-75: rgba(255, 255, 0, 0.75);
+$el-yellow-50: rgba(255, 255, 0, 0.5);
+$el-yellow-25: rgba(255, 255, 0, 0.25);
+$el-yellow-10: rgba(255, 255, 0, 0.1);
+$el-yellow-0: rgba(255, 255, 0, 0);
+$el-sun-100: rgba(255, 204, 25, 1);
+$el-sun-75: rgba(255, 204, 25, 0.75);
+$el-sun-50: rgba(255, 204, 25, 0.5);
+$el-sun-25: rgba(255, 204, 25, 0.25);
+$el-sun-10: rgba(255, 204, 25, 0.1);
+$el-sun-0: rgba(255, 204, 25, 0);
+$el-white-100: rgba(255, 255, 255, 1);
+$el-white-75: rgba(255, 255, 255, 0.75);
+$el-white-50: rgba(255, 255, 255, 0.5);
+$el-white-25: rgba(255, 255, 255, 0.25);
+$el-white-10: rgba(255, 255, 255, 0.1);
+$el-white-0: rgba(255, 255, 255, 0);
+$el-grey-100: rgba(228, 228, 228, 1);
+$el-grey-75: rgba(228, 228, 228, 0.75);
+$el-grey-50: rgba(228, 228, 228, 0.5);
+$el-grey-25: rgba(228, 228, 228, 0.25);
+$el-grey-10: rgba(228, 228, 228, 0.1);
+$el-grey-0: rgba(228, 228, 228, 0);
+$el-graphite-100: rgba(99, 99, 99, 1);
+$el-graphite-75: rgba(99, 99, 99, 0.75);
+$el-graphite-50: rgba(99, 99, 99, 0.5);
+$el-graphite-25: rgba(99, 99, 99, 0.25);
+$el-graphite-10: rgba(99, 99, 99, 0.1);
+$el-graphite-0: rgba(99, 99, 99, 0);
+$el-black-100: rgba(0, 0, 0, 1);
+$el-black-75: rgba(0, 0, 0, 0.75);
+$el-black-50: rgba(0, 0, 0, 0.5);
+$el-black-25: rgba(0, 0, 0, 0.25);
+$el-black-10: rgba(0, 0, 0, 0.1);
+$el-black-0: rgba(0, 0, 0, 0);
+$primary: rgba(207, 0, 0, 1);
+$secondary: rgba(125, 0, 0, 1);
+$primary-inv: rgba(255, 255, 255, 1);
+$secondary-inv: rgba(225, 207, 220, 1);
+$accent: rgba(155, 25, 25, 1);
+$dark: rgba(29, 29, 29, 1);
+$dark-page: rgba(18, 18, 18, 1);
+$positive: rgba(33, 186, 69, 1);
+$negative: rgba(125, 0, 0, 1);
+$info: rgb(36, 194, 226);
+$warning: rgba(242, 192, 55, 1);
