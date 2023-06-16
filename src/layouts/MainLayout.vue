@@ -29,7 +29,11 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
     <q-footer>
+      <q-item class="q-mx-none q-my-none q-px-none q-py-none bottom">
+        <FloatActionButtons />
+      </q-item>
       <q-item class="footer-1" aria-label="Menu">
         <FooterLink
           v-for="link in footerLinks"
@@ -47,6 +51,7 @@
 import { defineComponent, ref } from "vue";
 import EssentialLink from "components/EssentialLink.vue";
 import FooterLink from "components/FooterLink.vue";
+import FloatActionButtons from "components/FloatActionButtons.vue";
 
 const linksList = [
   {
@@ -99,6 +104,7 @@ export default defineComponent({
   components: {
     EssentialLink,
     FooterLink,
+    FloatActionButtons,
   },
 
   setup() {
