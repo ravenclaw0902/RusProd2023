@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <q-card class="relative-position row flex-center home-area">
+    <q-card flat class="relative-position row flex-center home-area">
       <div class="column flex-center home-title">
         <svg
           width="204"
@@ -88,7 +88,7 @@
         </h3>
       </div>
     </q-card>
-    <q-card class="relative-position row flex-center home-area">
+    <q-card flat class="relative-position row flex-center home-area">
       <div class="column flex-center home-descr">
         <p class="first">
           <span>«МИРФУДС»</span> – крупный отечественный производитель продуктов
