@@ -11,10 +11,16 @@
           @click="toggleMainMenu"
         />
       </q-toolbar>
-      <q-logo> </q-logo>
+      <q-btn href="#" push>
+        <q-img
+          src="/assets/rusprod.png"
+          srcset="/assets/rusprod.webp,
+                  /assets/rusprod.svg"
+        />
+      </q-btn>
     </q-header>
 
-    <q-dialog v-model="mainMenu" show-if-above bordered>
+    <q-dialog v-model="mainMenu" show-if-above fullscreen>
       <q-card class="q-dialog-plugin">
         <q-list>
           <EssentialLink
