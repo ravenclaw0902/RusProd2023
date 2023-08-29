@@ -3,7 +3,7 @@
 // TYPOGRAPHY
 @font-face {
   font-family: "Nunito-Regular";
-  //src: url("Nunito-Regular.eot");
+  src: url("/public/assets/fonts/Nunito-Regular.eot");
   src: local("/public/assets/fonts/Nunito-Regular"),
     local("/public/assets/fonts/Nunito-Regular"),
     url("/public/assets/fonts/Nunito-Regular.eot?#iefix")
@@ -17,7 +17,7 @@
 }
 @font-face {
   font-family: "Nunito-SemiBold";
-  //src: url("Nunito-SemiBold.eot");
+  src: url("/public/assets/fonts/Nunito-SemiBold.eot");
   src: local("/public/assets/fonts/Nunito-SemiBold"),
     local("/public/assets/fonts/Nunito-SemiBold"),
     url("/public/assets/fonts/Nunito-SemiBold.eot?#iefix")
@@ -31,7 +31,7 @@
 }
 @font-face {
   font-family: "Nunito-Bold";
-  //src: url("Nunito-Bold.eot");
+  src: url("/public/assets/fonts/Nunito-Bold.eot");
   src: local("/public/assets/fonts/Nunito-Bold"),
     local("/public/assets/fonts/Nunito-Bold"),
     url("/public/assets/fonts/Nunito-Bold.eot?#iefix")
@@ -45,7 +45,7 @@
 }
 @font-face {
   font-family: "Cocon-Regular";
-  //src: url("Cocon-Regular.eot");
+  src: url("/public/assets/fonts/Cocon-Regular.eot");
   src: local("/public/assets/fonts/Cocon-Regular"),
     local("/public/assets/fonts/Cocon-Regular"),
     url("/public/assets/fonts/Cocon-Regular.eot?#iefix")
@@ -59,6 +59,66 @@
 }
 
 // ANIMATION
+@keyframes across1 {
+  0% {
+    fill: rgba(241, 35, 0, 0);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 200;
+    stroke-dashoffset: -200;
+  }
+  90% {
+    fill: rgba(241, 35, 0, 0);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: rgba(241, 35, 0, 1);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes across2 {
+  0% {
+    fill: rgba(241, 35, 0, 0);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 350;
+    stroke-dashoffset: -350;
+  }
+  90% {
+    fill: rgba(241, 35, 0, 0);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 350;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: rgba(241, 35, 0, 1);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 350;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes across3 {
+  0% {
+    fill: rgba(241, 35, 0, 0);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 500;
+    stroke-dashoffset: -500;
+  }
+  90% {
+    fill: rgba(241, 35, 0, 0);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 500;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    fill: rgba(241, 35, 0, 1);
+    stroke: rgba(241, 35, 0, 1);
+    stroke-dasharray: 500;
+    stroke-dashoffset: 0;
+  }
+}
 .animate-fast {
   -moz-transition: all 0.1s ease-in-out 0.05s;
   -webkit-transition: all 0.1s ease-in-out 0.05s;
@@ -99,6 +159,24 @@
 .logo:hover svg path {
   fill: $el-white-100;
 }
+
+// CONTENT
+.home-area svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.home-area svg .elem.el1 {
+  animation: across1 5s ease-in-out 0s 1 normal forwards;
+}
+.home-area svg .elem.el2 {
+  animation: across2 5s ease-in-out 0s 1 normal forwards;
+}
+.home-area svg .elem.el3 {
+  animation: across3 5s ease-in-out 0s 1 normal forwards;
+}
+
 // FOOTER
 .bottom {
   width: fit-content;
