@@ -53,60 +53,60 @@
 // ANIMATION
 @keyframes across1 {
   0% {
-    fill: rgba(241, 35, 0, 0);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-0;
+    stroke: $el-red-100;
     stroke-dasharray: 200;
     stroke-dashoffset: -200;
   }
   90% {
-    fill: rgba(241, 35, 0, 0);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-0;
+    stroke: $el-red-100;
     stroke-dasharray: 200;
     stroke-dashoffset: 0;
   }
   100% {
-    fill: rgba(241, 35, 0, 1);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-100;
+    stroke: $el-red-100;
     stroke-dasharray: 200;
     stroke-dashoffset: 0;
   }
 }
 @keyframes across2 {
   0% {
-    fill: rgba(241, 35, 0, 0);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-0;
+    stroke: $el-red-100;
     stroke-dasharray: 350;
     stroke-dashoffset: -350;
   }
   90% {
-    fill: rgba(241, 35, 0, 0);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-0;
+    stroke: $el-red-100;
     stroke-dasharray: 350;
     stroke-dashoffset: 0;
   }
   100% {
-    fill: rgba(241, 35, 0, 1);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-100;
+    stroke: $el-red-100;
     stroke-dasharray: 350;
     stroke-dashoffset: 0;
   }
 }
 @keyframes across3 {
   0% {
-    fill: rgba(241, 35, 0, 0);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-0;
+    stroke: $el-red-100;
     stroke-dasharray: 500;
     stroke-dashoffset: -500;
   }
   90% {
-    fill: rgba(241, 35, 0, 0);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-0;
+    stroke: $el-red-100;
     stroke-dasharray: 500;
     stroke-dashoffset: 0;
   }
   100% {
-    fill: rgba(241, 35, 0, 1);
-    stroke: rgba(241, 35, 0, 1);
+    fill: $el-red-100;
+    stroke: $el-red-100;
     stroke-dasharray: 500;
     stroke-dashoffset: 0;
   }
@@ -176,7 +176,9 @@
 }
 .home-subtitle {
   margin: 2rem 0 0;
-  font-size: 2.5rem;
+  color: $el-black-75;
+  font-size: 2rem;
+  font-family: "Cocon-Regular", sans-serif;
 }
 
 // FOOTER
